@@ -1,0 +1,1277 @@
+[
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1548965596000,
+            "changeTime": 1548965596000,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1548965596000,
+            "changeTime": 1548965596000,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 170,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "0a0df1d54ec8b49b972a19a672bd2178bf609060",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/aura",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 68,
+            "modifiedTime": 1548965596000,
+            "changeTime": 1548965596000,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/layouts",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "08892dc1c9b377d650cf3c4ba3a6085a6436da63",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/layouts/NAF__c-NAF Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/layouts/NAF__c-NAF Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 7757,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "67414f25ca0e3bb2ec00515af1895e4cffd087d3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/layouts/Survey__c-Survey Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/layouts/Survey__c-Survey Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2073,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "e13397b2b2e9135d87624fc1a2d09488a44438a5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 238,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "25b513a5b7facad62d8f77abc825107e161d1638",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 612,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "6db26e58a30047b252bd9e88dd5bc03c4ee4b642",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Account_Group__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Account_Group__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1847,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "222e968d6c57260e6e06e103e64ce113f67b42e8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Atlas_Segment__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Atlas_Segment__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1011,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "bb6926931dac45da7f8301bcc411386f8d22b8ae",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Atlas_SubSegment__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Atlas_SubSegment__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2385,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "f29b9f2bd51af723855bc1f068fd56a24f327b12",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Channel__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Channel__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 847,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "3e5f7bd9c0ede4ac240b03e51b3cd4c9492bb3f1",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Customer_Status__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Customer_Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1317,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "ba6649b3540dea9326377ae56777561d6e67633e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Customer_Type__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Customer_Type__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1321,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "d057066b6d80435d7ed4fe909d2a24159d0ec4b2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Flag__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Flag__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3174,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "b9e0baa5238a3c4057d1530c8977785a5f2bc7cc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Indoor_Menu_Type_1_Panel_1_2_3__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Indoor_Menu_Type_1_Panel_1_2_3__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1208,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "d2479ad0d55c825aafbb2193828682216567309e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Licensee__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Licensee__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 508,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "8796f9b3067e36913257edae67ba3859013ff793",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Menu_1_Qty_of_sets_needed__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Menu_1_Qty_of_sets_needed__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 480,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "0e1378ac1887d35c498e37ff95b34e5a721f09b9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Menu_Board_Program__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Menu_Board_Program__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 992,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "ad0d4379c0456603d9f0437a23d826199b11d852",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Ownership_Group__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Ownership_Group__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2825,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "e0974bcdeb23ea754f36da3976282a84f32519d7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Pricing_Region__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Pricing_Region__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1183,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "2e50137e7d6b07ff515e69c3a12a5927aef6207a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Segment__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Segment__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2173,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "355ffba010476e1330116e3a6b94a0d41fbd05a0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Store_Type__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Store_Type__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2011,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "1a577fc3d5e2e6fff224f7938ba120a97a07730b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Sub_Segment__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Account/fields/Sub_Segment__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 14654,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "db6019bd007b0240884561893c4a41d3eab14645",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/AccountContactRelation",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/AccountContactRelation",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/AccountContactRelation/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/AccountContactRelation/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "bd417d44b24455059755b10122fe9e34efabf1fc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/AccountContactRelation/fields/Relationship_Strength__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/AccountContactRelation/fields/Relationship_Strength__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 952,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "74fec1a30b8c6c6f6c3f0c06009174def8d7da68",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 170,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "d653f373e2b3d00479c48f266b6a5d9eaa891e3e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/NAF__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/NAF__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2050,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "be37e77ccc525320e98ba4cba5a3f15e31203297",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 918,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "9e653d809d6b04ecbfbc8c861fd16602569b4e4a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Account__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Account__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 536,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "d626e5e613608e31d93ae558b19f8ea89cc5b409",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Authorized_Brands__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Authorized_Brands__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1641,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "f3dbb04a0d31926461b8ecd2ef1db0ab1ac52489",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Bill_to_Account__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Bill_to_Account__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 527,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "b2006cbf89fd596e028129987cbc6a430dc9609d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/CHEP_ID_NUM__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/CHEP_ID_NUM__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 424,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "bee83204500c77563004e498635f5d45c7b58254",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/CHEP_Pallet_Accept__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/CHEP_Pallet_Accept__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 343,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "1afde840f3cab21cba88270cba92549ccbc590e8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/DUNS_NUM__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/DUNS_NUM__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 421,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "42f4aaae43b47ce2092a2c3d3c5b36f2b4485a61",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Delivery_Consolidation__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Delivery_Consolidation__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 434,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "4b655668d86ca5a2a60cd2e8d164f0df8ffc3ec8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/EDI_Contact_Email__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/EDI_Contact_Email__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 440,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "f85eca7010f7525a365f34e6d194b3880aefa5a7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/EDI_Contact_Name__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/EDI_Contact_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 438,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "da0d94fb4bb9292547402debe3a36362fb2271a8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/EDI_Contact_Phone__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/EDI_Contact_Phone__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 440,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "9eb4e119323be405042ba1e1a790007235e3b711",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/EDI_Location__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/EDI_Location__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 430,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "ce93d29e7f5e0d0394493bb26367b16b628a61bc",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Freight_Terms__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Freight_Terms__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1767,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "bf841ce70ca182123b0929dbfc98a5155de03178",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Integration_status__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Integration_status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1336,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "c5d8630062f05b73e1aab6159fca5fcf316ec294",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Is_commissary__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Is_commissary__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 444,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "72aa17f991ed6ce75e1d549d10bcc3a480519724",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/NAF_SUBMITTED__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/NAF_SUBMITTED__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 332,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "368dd26c03b8a93909f7c927ea5a56b07fcd44a0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Ordering_Contact_Fax__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Ordering_Contact_Fax__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 335,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "7290e96065660084715f92c1d3cafe6b4c450716",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Ordering_Contact_Name__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Ordering_Contact_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 444,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "ed72b392db0dc4a094fd40f38ba46d35796c1aba",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Ordering_Contact_Phone__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Ordering_Contact_Phone__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 340,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "2034298f00ef0c0f6d896883219b79f03e3f6668",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Pack_Level__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Pack_Level__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 637,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "95a5c7119a417a10def7aba65e6e9bf25744e0d6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Regional_Distribution_Center__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Regional_Distribution_Center__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1339,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "dca6e9b59aff2af89c2ab86fcde6d124a06937d5",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Remaining_Shelf_life_flag__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Remaining_Shelf_life_flag__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 356,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "787bfbff57fc49a3f170a3d774ddebf32fb4efba",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Retain_Carrier__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Retain_Carrier__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 803,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "f8718ee5207c2d04027e6a1ecff80f5f1c611125",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Ship_to_Account__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Ship_to_Account__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 527,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "db98196fb310a2ba99ba459961b691ca0d9c2b88",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Special_Delivery_Instructions__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Special_Delivery_Instructions__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 414,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "87f7bf281f54efd13c98411598e72ebe1d4ee8e0",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Use_commissary__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/fields/Use_commissary__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 440,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "ebdd398db8972ca1ee00007e998664eb8eab0f8e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/listViews",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/listViews/All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/NAF__c/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 680,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "80b0a7746153e98fd82c98068e1533a7d4f55e3a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Annualized_Sales__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Annualized_Sales__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 495,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "5b5a2c0dafe6e7fdc182412a77900d745fd4bc7c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Atlas_Synch_Status__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Atlas_Synch_Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 428,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "b7443a94a6c7534ec7e7834bf16d696255af8625",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Average_Weekly_Sales__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Average_Weekly_Sales__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 436,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "d14a87e2173782ead5f4411fa6d1b330a5778460",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Budget_Confirmed__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Budget_Confirmed__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 385,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "a3525f52dc0205c74085a8e1803aca95351e8487",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Discovery_Completed__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Discovery_Completed__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 391,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "eadd1495201500b5835335da090928a0e5180f1c",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Engine_Type__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Engine_Type__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1060,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "6bc5d0e2a19f60d848c270a9a5b3da955ca5fb94",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Estimated_Open_Date__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Estimated_Open_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 451,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "9b9b5a5568a056a4256d99af0414426d6e797302",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/IMDS_Approval_Date__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/IMDS_Approval_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 377,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "97b479b29388e59c83946e9ad0469831125d6b4f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/IMDS_Approval__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/IMDS_Approval__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 576,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "aca11e7a4c50a76156adf40ae0c4505ca9424359",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/IMDS_Notes__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/IMDS_Notes__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 365,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "53c2b1e2426894bc27c46b38662f9475fbf9de44",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/MLA__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/MLA__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 359,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "d855548b03b5338076b207e67e0d5d5cfdba39ec",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/New_Store_Opp_Stage__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/New_Store_Opp_Stage__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1822,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "e61df0067694e53d31d03acc6f71d79af418fa57",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Next_Step_Date__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Next_Step_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 368,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "8142ca5ececbdabc29d591f99e92cec7358c47a9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/ROI_Analysis_Completed__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/ROI_Analysis_Completed__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 397,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "e713a34a531adb8bfaa5a92a83eb4345f3b008d9",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Radius__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Radius__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 416,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "a5080a75691bc07c767122719b7b777fcabe6a27",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Reason_Code__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Reason_Code__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2677,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "0b7d76e58080d85287b5337071b5b41ab82bd7ed",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Scorecard_Assigned_To__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Scorecard_Assigned_To__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 434,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "520d4618d82b81feef37e4ec503d8ff360544e2e",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Scorecard_Status__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Opportunity/fields/Scorecard_Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1219,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "9eb2d63f71776178947ab8a045a204178727586b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "d4e11521c1606dd63950c4e2a17a57f721f2ec43",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c/Survey__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c/Survey__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2105,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "854fdce24783803f92162c7ca670aee6552bdfc2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 136,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "5333ba7a1ef00504d94621707c8ef4b0f3144b34",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c/fields/Account__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c/fields/Account__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 663,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "75a1620d184f903bd43317d21bfd8fa82118a51f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c/fields/Survey_Status__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration/force-app/main/default/objects/Survey__c/fields/Survey_Status__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3076,
+            "modifiedTime": 1548965824000,
+            "changeTime": 1548965824000,
+            "contentHash": "519e42eb90444afc8eef441fe5e752d9705d409a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration",
+        {
+            "state": "u",
+            "sourcePath": "/Users/aburugur/Documents/salesforce-dev/test-ns53-org/DXMigration",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 374,
+            "modifiedTime": 1548965789000,
+            "changeTime": 1548965789000,
+            "contentHash": "ba6ea71495873c313767c4ddcb5c58be15e8c959",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

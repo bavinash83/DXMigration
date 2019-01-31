@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_commissary__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If yes-product will be shipped to an alternate location</description>
+    <externalId>false</externalId>
+    <label>Does this store use a commissary?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

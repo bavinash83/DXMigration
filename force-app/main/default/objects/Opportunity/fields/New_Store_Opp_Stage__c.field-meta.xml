@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Store_Opp_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>New Store Opp Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target</label>
+            </value>
+            <value>
+                <fullName>Promote Site</fullName>
+                <default>false</default>
+                <label>Promote Site</label>
+            </value>
+            <value>
+                <fullName>IMDS &amp; Radius Check</fullName>
+                <default>false</default>
+                <label>IMDS &amp; Radius Check</label>
+            </value>
+            <value>
+                <fullName>Scorecard</fullName>
+                <default>false</default>
+                <label>Scorecard</label>
+            </value>
+            <value>
+                <fullName>Create Project, NTP, MLA</fullName>
+                <default>false</default>
+                <label>Create Project, NTP, MLA</label>
+            </value>
+            <value>
+                <fullName>Account Setup &amp; RA</fullName>
+                <default>false</default>
+                <label>Account Setup &amp; RA</label>
+            </value>
+            <value>
+                <fullName>Store Open</fullName>
+                <default>false</default>
+                <label>Store Open</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

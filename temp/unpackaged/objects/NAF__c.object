@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>New Account Form</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Account info</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>NAFs</relationshipLabel>
+        <relationshipName>NAFs</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Authorized_Brands__c</fullName>
+        <externalId>false</externalId>
+        <label>Authorized Brands</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SBC</fullName>
+                    <default>false</default>
+                    <label>SBC</label>
+                </value>
+                <value>
+                    <fullName>SBC TI</fullName>
+                    <default>false</default>
+                    <label>SBC TI</label>
+                </value>
+                <value>
+                    <fullName>SBUX</fullName>
+                    <default>false</default>
+                    <label>SBUX</label>
+                </value>
+                <value>
+                    <fullName>SBUX SBC</fullName>
+                    <default>false</default>
+                    <label>SBUX SBC</label>
+                </value>
+                <value>
+                    <fullName>SBUX SBC TI</fullName>
+                    <default>false</default>
+                    <label>SBUX SBC TI</label>
+                </value>
+                <value>
+                    <fullName>SBUX TI</fullName>
+                    <default>false</default>
+                    <label>SBUX TI</label>
+                </value>
+                <value>
+                    <fullName>TI</fullName>
+                    <default>false</default>
+                    <label>TI</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Bill_to_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Bill_to_Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>NAFs (Bill_to_Account)</relationshipLabel>
+        <relationshipName>NAFs2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CHEP_ID_NUM__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>50 characters or less</inlineHelpText>
+        <label>CHEP ID #</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CHEP_Pallet_Accept__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CHEP Pallet Accept:</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DUNS_NUM__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>100 characters or less</inlineHelpText>
+        <label>DUNS #:</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delivery_Consolidation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check for delivery consolidation within orders</inlineHelpText>
+        <label>Delivery Consolidation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EDI_Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>100 characters or less</inlineHelpText>
+        <label>EDI Contact Email</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EDI_Contact_Name__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>100 characters or less</inlineHelpText>
+        <label>EDI Contact Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EDI_Contact_Phone__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>100 characters or less</inlineHelpText>
+        <label>EDI Contact Phone</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EDI_Location__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>100 characters or less</inlineHelpText>
+        <label>EDI Location</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Freight_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Freight Terms</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Collect</fullName>
+                    <default>false</default>
+                    <label>Collect</label>
+                </value>
+                <value>
+                    <fullName>Prepay &amp; Add</fullName>
+                    <default>false</default>
+                    <label>Prepay &amp; Add</label>
+                </value>
+                <value>
+                    <fullName>Prepay &amp; Add with cost convers</fullName>
+                    <default>false</default>
+                    <label>Prepay &amp; Add with cost convers</label>
+                </value>
+                <value>
+                    <fullName>Prepaid</fullName>
+                    <default>false</default>
+                    <label>Prepaid</label>
+                </value>
+                <value>
+                    <fullName>Third Party Billing</fullName>
+                    <default>false</default>
+                    <label>Third Party Billing</label>
+                </value>
+                <value>
+                    <fullName>To Be Determined</fullName>
+                    <default>false</default>
+                    <label>To Be Determined</label>
+                </value>
+                <value>
+                    <fullName>Will Call</fullName>
+                    <default>false</default>
+                    <label>Will Call</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Integration_status__c</fullName>
+        <externalId>false</externalId>
+        <label>Integration status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <default>true</default>
+                    <label>Not Submitted</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>In process</fullName>
+                    <default>false</default>
+                    <label>In process</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Is_commissary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If Yes-this location receives orders for multiple stores.</inlineHelpText>
+        <label>Is this location a commissary?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NAF_SUBMITTED__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>NAF submitted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ordering_Contact_Fax__c</fullName>
+        <externalId>false</externalId>
+        <label>Ordering Contact Fax</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Ordering_Contact_Name__c</fullName>
+        <description>Name of Ordering contact</description>
+        <externalId>false</externalId>
+        <label>Ordering Contact Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ordering_Contact_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Ordering Contact Phone:</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Pack_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Pack Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PO</fullName>
+                    <default>false</default>
+                    <label>PO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Regional_Distribution_Center__c</fullName>
+        <externalId>false</externalId>
+        <label>Regional Distribution Center</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Auburn</fullName>
+                    <default>false</default>
+                    <label>Auburn</label>
+                </value>
+                <value>
+                    <fullName>Carson</fullName>
+                    <default>false</default>
+                    <label>Carson</label>
+                </value>
+                <value>
+                    <fullName>Dallas</fullName>
+                    <default>false</default>
+                    <label>Dallas</label>
+                </value>
+                <value>
+                    <fullName>Nashville</fullName>
+                    <default>false</default>
+                    <label>Nashville</label>
+                </value>
+                <value>
+                    <fullName>York</fullName>
+                    <default>false</default>
+                    <label>York</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Remaining_Shelf_life_flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Remaining Shelf life flag</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Retain_Carrier__c</fullName>
+        <externalId>false</externalId>
+        <label>Retain Carrier</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ship_to_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Ship_to_Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>NAFs (Ship_to_Account)</relationshipLabel>
+        <relationshipName>NAFs1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Special_Delivery_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>up to 255 characters</inlineHelpText>
+        <label>Special Delivery Instructions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Use_commissary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If yes-product will be shipped to an alternate location</description>
+        <externalId>false</externalId>
+        <label>Does this store use a commissary?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>NAF</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>NAF Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>NAFs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

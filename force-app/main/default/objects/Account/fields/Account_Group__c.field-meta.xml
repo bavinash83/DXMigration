@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>UNIVERSITY OF WASHINGTON</fullName>
+                <default>false</default>
+                <label>UNIVERSITY OF WASHINGTON</label>
+            </value>
+            <value>
+                <fullName>UNIVERSITY OF SOUTH CAROLINA</fullName>
+                <default>false</default>
+                <label>UNIVERSITY OF SOUTH CAROLINA</label>
+            </value>
+            <value>
+                <fullName>EAST CAROLINA UNIVERSITY</fullName>
+                <default>false</default>
+                <label>EAST CAROLINA UNIVERSITY</label>
+            </value>
+            <value>
+                <fullName>ABBOTT HEALTH</fullName>
+                <default>false</default>
+                <label>ABBOTT HEALTH</label>
+            </value>
+            <value>
+                <fullName>WASHINGTON STATE UNIVERSITY</fullName>
+                <default>false</default>
+                <label>WASHINGTON STATE UNIVERSITY</label>
+            </value>
+            <value>
+                <fullName>TARLETON STATE UNIVERSITY</fullName>
+                <default>false</default>
+                <label>TARLETON STATE UNIVERSITY</label>
+            </value>
+            <value>
+                <fullName>TORONTO PEARSON AIRPORT</fullName>
+                <default>false</default>
+                <label>TORONTO PEARSON AIRPORT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regional_Distribution_Center__c</fullName>
+    <externalId>false</externalId>
+    <label>Regional Distribution Center</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Auburn</fullName>
+                <default>false</default>
+                <label>Auburn</label>
+            </value>
+            <value>
+                <fullName>Carson</fullName>
+                <default>false</default>
+                <label>Carson</label>
+            </value>
+            <value>
+                <fullName>Dallas</fullName>
+                <default>false</default>
+                <label>Dallas</label>
+            </value>
+            <value>
+                <fullName>Nashville</fullName>
+                <default>false</default>
+                <label>Nashville</label>
+            </value>
+            <value>
+                <fullName>York</fullName>
+                <default>false</default>
+                <label>York</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

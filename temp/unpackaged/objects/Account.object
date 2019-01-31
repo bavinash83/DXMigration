@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Account_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Group</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>UNIVERSITY OF WASHINGTON</fullName>
+                    <default>false</default>
+                    <label>UNIVERSITY OF WASHINGTON</label>
+                </value>
+                <value>
+                    <fullName>UNIVERSITY OF SOUTH CAROLINA</fullName>
+                    <default>false</default>
+                    <label>UNIVERSITY OF SOUTH CAROLINA</label>
+                </value>
+                <value>
+                    <fullName>EAST CAROLINA UNIVERSITY</fullName>
+                    <default>false</default>
+                    <label>EAST CAROLINA UNIVERSITY</label>
+                </value>
+                <value>
+                    <fullName>ABBOTT HEALTH</fullName>
+                    <default>false</default>
+                    <label>ABBOTT HEALTH</label>
+                </value>
+                <value>
+                    <fullName>WASHINGTON STATE UNIVERSITY</fullName>
+                    <default>false</default>
+                    <label>WASHINGTON STATE UNIVERSITY</label>
+                </value>
+                <value>
+                    <fullName>TARLETON STATE UNIVERSITY</fullName>
+                    <default>false</default>
+                    <label>TARLETON STATE UNIVERSITY</label>
+                </value>
+                <value>
+                    <fullName>TORONTO PEARSON AIRPORT</fullName>
+                    <default>false</default>
+                    <label>TORONTO PEARSON AIRPORT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Atlas_Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Atlas Segment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GROCERY</fullName>
+                    <default>false</default>
+                    <label>GROCERY</label>
+                </value>
+                <value>
+                    <fullName>ONST&amp;RTL</fullName>
+                    <default>false</default>
+                    <label>ONST&amp;RTL</label>
+                </value>
+                <value>
+                    <fullName>TRVL&amp;LSR</fullName>
+                    <default>false</default>
+                    <label>TRVL&amp;LSR</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Atlas_SubSegment__c</fullName>
+        <externalId>false</externalId>
+        <label>Atlas SubSegment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Airport</fullName>
+                    <default>false</default>
+                    <label>Airport</label>
+                </value>
+                <value>
+                    <fullName>Casino/Gaming</fullName>
+                    <default>false</default>
+                    <label>Casino/Gaming</label>
+                </value>
+                <value>
+                    <fullName>College &amp; University</fullName>
+                    <default>false</default>
+                    <label>College &amp; University</label>
+                </value>
+                <value>
+                    <fullName>Grocery</fullName>
+                    <default>false</default>
+                    <label>Grocery</label>
+                </value>
+                <value>
+                    <fullName>Health Care</fullName>
+                    <default>false</default>
+                    <label>Health Care</label>
+                </value>
+                <value>
+                    <fullName>Lodging</fullName>
+                    <default>false</default>
+                    <label>Lodging</label>
+                </value>
+                <value>
+                    <fullName>Military</fullName>
+                    <default>false</default>
+                    <label>Military</label>
+                </value>
+                <value>
+                    <fullName>Onsite</fullName>
+                    <default>false</default>
+                    <label>Onsite</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>Target</fullName>
+                    <default>false</default>
+                    <label>Target</label>
+                </value>
+                <value>
+                    <fullName>Travel Plaza</fullName>
+                    <default>false</default>
+                    <label>Travel Plaza</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Channel</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SBUX Licensee</fullName>
+                    <default>false</default>
+                    <label>SBUX Licensee</label>
+                </value>
+                <value>
+                    <fullName>SBUX Licensed Store</fullName>
+                    <default>true</default>
+                    <label>SBUX Licensed Store</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Status</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>true</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Dead</fullName>
+                    <default>false</default>
+                    <label>Dead</label>
+                </value>
+                <value>
+                    <fullName>On-Hold</fullName>
+                    <default>false</default>
+                    <label>On-Hold</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Type</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Store</fullName>
+                    <default>true</default>
+                    <label>Store</label>
+                </value>
+                <value>
+                    <fullName>Licensee</fullName>
+                    <default>false</default>
+                    <label>Licensee</label>
+                </value>
+                <value>
+                    <fullName>Ship To</fullName>
+                    <default>false</default>
+                    <label>Ship To</label>
+                </value>
+                <value>
+                    <fullName>Bill To</fullName>
+                    <default>false</default>
+                    <label>Bill To</label>
+                </value>
+                <value>
+                    <fullName>Operator</fullName>
+                    <default>false</default>
+                    <label>Operator</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Flag__c</fullName>
+        <externalId>false</externalId>
+        <label>Flag</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Atlas_Segment__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AAFES</fullName>
+                    <default>false</default>
+                    <label>AAFES</label>
+                </value>
+                <value>
+                    <fullName>HILTON</fullName>
+                    <default>false</default>
+                    <label>HILTON</label>
+                </value>
+                <value>
+                    <fullName>HYATT</fullName>
+                    <default>false</default>
+                    <label>HYATT</label>
+                </value>
+                <value>
+                    <fullName>MARRIOTT</fullName>
+                    <default>false</default>
+                    <label>MARRIOTT</label>
+                </value>
+                <value>
+                    <fullName>MILITARY</fullName>
+                    <default>false</default>
+                    <label>MILITARY</label>
+                </value>
+                <value>
+                    <fullName>MORRISONS</fullName>
+                    <default>false</default>
+                    <label>MORRISONS</label>
+                </value>
+                <value>
+                    <fullName>STARWOOD</fullName>
+                    <default>false</default>
+                    <label>STARWOOD</label>
+                </value>
+                <value>
+                    <fullName>WESTIN</fullName>
+                    <default>false</default>
+                    <label>WESTIN</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>TRVL&amp;LSR</controllingFieldValue>
+                <valueName>AAFES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRVL&amp;LSR</controllingFieldValue>
+                <valueName>HILTON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRVL&amp;LSR</controllingFieldValue>
+                <valueName>HYATT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRVL&amp;LSR</controllingFieldValue>
+                <valueName>MARRIOTT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRVL&amp;LSR</controllingFieldValue>
+                <valueName>MILITARY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRVL&amp;LSR</controllingFieldValue>
+                <valueName>MORRISONS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRVL&amp;LSR</controllingFieldValue>
+                <valueName>STARWOOD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRVL&amp;LSR</controllingFieldValue>
+                <valueName>WESTIN</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Indoor_Menu_Type_1_Panel_1_2_3__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please note the following when selecting menu type options
+Indoor Core size: 22.4375&quot; x 27.5&quot;
+Indoor Doppio size: 19.4375&quot; x 15.25&quot;</inlineHelpText>
+        <label>Indoor Menu Type 1 (Panel 1, 2, 3)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Doppio</fullName>
+                    <default>false</default>
+                    <label>Doppio</label>
+                </value>
+                <value>
+                    <fullName>Core</fullName>
+                    <default>false</default>
+                    <label>Core</label>
+                </value>
+                <value>
+                    <fullName>Short</fullName>
+                    <default>false</default>
+                    <label>Short</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Licensee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Licensee</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Licensee</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Menu_1_Qty_of_sets_needed__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>1 set includes menu panels 1, 2 and 3</inlineHelpText>
+        <label>Menu 1 Qty (# of sets needed)</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Menu_Board_Program__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert Regionally Priced
+Web2Print</inlineHelpText>
+        <label>Menu Board Program</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Insert - Regionally Priced</fullName>
+                    <default>false</default>
+                    <label>Insert - Regionally Priced</label>
+                </value>
+                <value>
+                    <fullName>Web2Print-not Regionally Price</fullName>
+                    <default>false</default>
+                    <label>Web2Print-not Regionally Price</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ownership_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Ownership Group</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MARRIOTT INTERNATIONAL</fullName>
+                    <default>false</default>
+                    <label>MARRIOTT INTERNATIONAL</label>
+                </value>
+                <value>
+                    <fullName>HILTON HOTELS CORPORATION</fullName>
+                    <default>false</default>
+                    <label>HILTON HOTELS CORPORATION</label>
+                </value>
+                <value>
+                    <fullName>STATION CASINOS</fullName>
+                    <default>false</default>
+                    <label>STATION CASINOS</label>
+                </value>
+                <value>
+                    <fullName>CJ WASHINGTON STREET LLC</fullName>
+                    <default>false</default>
+                    <label>CJ WASHINGTON STREET LLC</label>
+                </value>
+                <value>
+                    <fullName>CAESARS ENTERTAINMENT</fullName>
+                    <default>false</default>
+                    <label>CAESARS ENTERTAINMENT</label>
+                </value>
+                <value>
+                    <fullName>MGM MIRAGE OPERATIONS INC</fullName>
+                    <default>false</default>
+                    <label>MGM MIRAGE OPERATIONS INC</label>
+                </value>
+                <value>
+                    <fullName>ELKO ACQUISITIONS LLC</fullName>
+                    <default>false</default>
+                    <label>ELKO ACQUISITIONS LLC</label>
+                </value>
+                <value>
+                    <fullName>DAVIDSON HOTEL COMPANY</fullName>
+                    <default>false</default>
+                    <label>DAVIDSON HOTEL COMPANY</label>
+                </value>
+                <value>
+                    <fullName>GENERATION 2000</fullName>
+                    <default>false</default>
+                    <label>GENERATION 2000</label>
+                </value>
+                <value>
+                    <fullName>Values to be determined</fullName>
+                    <default>false</default>
+                    <label>Values to be determined</label>
+                </value>
+                <value>
+                    <fullName>75 EAST STATE LLC</fullName>
+                    <default>false</default>
+                    <label>75 EAST STATE LLC</label>
+                </value>
+                <value>
+                    <fullName>HAZENS INVESTMENT, LLC</fullName>
+                    <default>false</default>
+                    <label>HAZENS INVESTMENT, LLC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pricing_Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Pricing Region</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1-Region 1</fullName>
+                    <default>false</default>
+                    <label>1-Region 1</label>
+                </value>
+                <value>
+                    <fullName>2-Region 2</fullName>
+                    <default>false</default>
+                    <label>2-Region 2</label>
+                </value>
+                <value>
+                    <fullName>3-Region 3</fullName>
+                    <default>false</default>
+                    <label>3-Region 3</label>
+                </value>
+                <value>
+                    <fullName>4-Region 4</fullName>
+                    <default>false</default>
+                    <label>4-Region 4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Segment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LODGING</fullName>
+                    <default>false</default>
+                    <label>LODGING</label>
+                </value>
+                <value>
+                    <fullName>ONSITE</fullName>
+                    <default>false</default>
+                    <label>ONSITE</label>
+                </value>
+                <value>
+                    <fullName>RECREATION</fullName>
+                    <default>false</default>
+                    <label>RECREATION</label>
+                </value>
+                <value>
+                    <fullName>RETAIL</fullName>
+                    <default>false</default>
+                    <label>RETAIL</label>
+                </value>
+                <value>
+                    <fullName>TRAVEL</fullName>
+                    <default>false</default>
+                    <label>TRAVEL</label>
+                </value>
+                <value>
+                    <fullName>GROCERY</fullName>
+                    <default>false</default>
+                    <label>GROCERY</label>
+                </value>
+                <value>
+                    <fullName>OTHER RETAILERS</fullName>
+                    <default>false</default>
+                    <label>OTHER RETAILERS</label>
+                </value>
+                <value>
+                    <fullName>RESTAURANT</fullName>
+                    <default>false</default>
+                    <label>RESTAURANT</label>
+                </value>
+                <value>
+                    <fullName>PLACEHOLDER</fullName>
+                    <default>false</default>
+                    <label>PLACEHOLDER</label>
+                </value>
+                <value>
+                    <fullName>INTERNAL</fullName>
+                    <default>false</default>
+                    <label>INTERNAL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Store_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Store Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cafe</fullName>
+                    <default>false</default>
+                    <label>Cafe</label>
+                </value>
+                <value>
+                    <fullName>Cart</fullName>
+                    <default>false</default>
+                    <label>Cart</label>
+                </value>
+                <value>
+                    <fullName>Coffee Stand</fullName>
+                    <default>false</default>
+                    <label>Coffee Stand</label>
+                </value>
+                <value>
+                    <fullName>Drive Thru</fullName>
+                    <default>false</default>
+                    <label>Drive Thru</label>
+                </value>
+                <value>
+                    <fullName>Express</fullName>
+                    <default>false</default>
+                    <label>Express</label>
+                </value>
+                <value>
+                    <fullName>Kiosk</fullName>
+                    <default>false</default>
+                    <label>Kiosk</label>
+                </value>
+                <value>
+                    <fullName>Mobile Truck</fullName>
+                    <default>false</default>
+                    <label>Mobile Truck</label>
+                </value>
+                <value>
+                    <fullName>Reserve Bar</fullName>
+                    <default>false</default>
+                    <label>Reserve Bar</label>
+                </value>
+                <value>
+                    <fullName>Reserve Store</fullName>
+                    <default>false</default>
+                    <label>Reserve Store</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Segment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Segment__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AIRLINE</fullName>
+                    <default>false</default>
+                    <label>AIRLINE</label>
+                </value>
+                <value>
+                    <fullName>AIRPORT</fullName>
+                    <default>false</default>
+                    <label>AIRPORT</label>
+                </value>
+                <value>
+                    <fullName>ARENA / STADIUM</fullName>
+                    <default>false</default>
+                    <label>ARENA / STADIUM</label>
+                </value>
+                <value>
+                    <fullName>CHARTER</fullName>
+                    <default>false</default>
+                    <label>CHARTER</label>
+                </value>
+                <value>
+                    <fullName>CLUB</fullName>
+                    <default>false</default>
+                    <label>CLUB</label>
+                </value>
+                <value>
+                    <fullName>CONVENTION CENTER</fullName>
+                    <default>false</default>
+                    <label>CONVENTION CENTER</label>
+                </value>
+                <value>
+                    <fullName>COFFEE HOUSE</fullName>
+                    <default>false</default>
+                    <label>COFFEE HOUSE</label>
+                </value>
+                <value>
+                    <fullName>CRUISE LINE</fullName>
+                    <default>false</default>
+                    <label>CRUISE LINE</label>
+                </value>
+                <value>
+                    <fullName>CONVENIENCE STORE</fullName>
+                    <default>false</default>
+                    <label>CONVENIENCE STORE</label>
+                </value>
+                <value>
+                    <fullName>CATERING</fullName>
+                    <default>false</default>
+                    <label>CATERING</label>
+                </value>
+                <value>
+                    <fullName>COLLEGE/UNIVERSITY/TECH DINING</fullName>
+                    <default>false</default>
+                    <label>COLLEGE/UNIVERSITY/TECH DINING</label>
+                </value>
+                <value>
+                    <fullName>DRUG</fullName>
+                    <default>false</default>
+                    <label>DRUG</label>
+                </value>
+                <value>
+                    <fullName>DISTRIBUTOR</fullName>
+                    <default>false</default>
+                    <label>DISTRIBUTOR</label>
+                </value>
+                <value>
+                    <fullName>E-COMMERCE</fullName>
+                    <default>false</default>
+                    <label>E-COMMERCE</label>
+                </value>
+                <value>
+                    <fullName>ECONOMY</fullName>
+                    <default>false</default>
+                    <label>ECONOMY</label>
+                </value>
+                <value>
+                    <fullName>ECOMMERCE</fullName>
+                    <default>false</default>
+                    <label>ECOMMERCE</label>
+                </value>
+                <value>
+                    <fullName>EMPLOYEE DINING</fullName>
+                    <default>false</default>
+                    <label>EMPLOYEE DINING</label>
+                </value>
+                <value>
+                    <fullName>EQUIPMENT SERVICE</fullName>
+                    <default>false</default>
+                    <label>EQUIPMENT SERVICE</label>
+                </value>
+                <value>
+                    <fullName>FRESHBREW</fullName>
+                    <default>false</default>
+                    <label>FRESHBREW</label>
+                </value>
+                <value>
+                    <fullName>FULL SERVICE - FINE DINING</fullName>
+                    <default>false</default>
+                    <label>FULL SERVICE - FINE DINING</label>
+                </value>
+                <value>
+                    <fullName>FOOD</fullName>
+                    <default>false</default>
+                    <label>FOOD</label>
+                </value>
+                <value>
+                    <fullName>FULL SERVICE - CASUAL DINING</fullName>
+                    <default>false</default>
+                    <label>FULL SERVICE - CASUAL DINING</label>
+                </value>
+                <value>
+                    <fullName>FULL SERVICE - FAMILY DINING</fullName>
+                    <default>false</default>
+                    <label>FULL SERVICE - FAMILY DINING</label>
+                </value>
+                <value>
+                    <fullName>GAMING WITH LODGING</fullName>
+                    <default>false</default>
+                    <label>GAMING WITH LODGING</label>
+                </value>
+                <value>
+                    <fullName>GENERAL MERCHANDISE</fullName>
+                    <default>false</default>
+                    <label>GENERAL MERCHANDISE</label>
+                </value>
+                <value>
+                    <fullName>GIFT PACK</fullName>
+                    <default>false</default>
+                    <label>GIFT PACK</label>
+                </value>
+                <value>
+                    <fullName>GOLF</fullName>
+                    <default>false</default>
+                    <label>GOLF</label>
+                </value>
+                <value>
+                    <fullName>GOVERNMENT DINING</fullName>
+                    <default>false</default>
+                    <label>GOVERNMENT DINING</label>
+                </value>
+                <value>
+                    <fullName>HEALTHCARE - LONG TERM</fullName>
+                    <default>false</default>
+                    <label>HEALTHCARE - LONG TERM</label>
+                </value>
+                <value>
+                    <fullName>HEALTHCARE - SHORT TERM</fullName>
+                    <default>false</default>
+                    <label>HEALTHCARE - SHORT TERM</label>
+                </value>
+                <value>
+                    <fullName>INTERNAL CONSUMPTION-OFFICES</fullName>
+                    <default>false</default>
+                    <label>INTERNAL CONSUMPTION-OFFICES</label>
+                </value>
+                <value>
+                    <fullName>MASS</fullName>
+                    <default>false</default>
+                    <label>MASS</label>
+                </value>
+                <value>
+                    <fullName>MID-SCALE</fullName>
+                    <default>false</default>
+                    <label>MID-SCALE</label>
+                </value>
+                <value>
+                    <fullName>MILITARY COMMISSARY/EXCHANGE</fullName>
+                    <default>false</default>
+                    <label>MILITARY COMMISSARY/EXCHANGE</label>
+                </value>
+                <value>
+                    <fullName>MILITARY DINING</fullName>
+                    <default>false</default>
+                    <label>MILITARY DINING</label>
+                </value>
+                <value>
+                    <fullName>ONSITE OTHER</fullName>
+                    <default>false</default>
+                    <label>ONSITE OTHER</label>
+                </value>
+                <value>
+                    <fullName>PLACEHOLDER</fullName>
+                    <default>false</default>
+                    <label>PLACEHOLDER</label>
+                </value>
+                <value>
+                    <fullName>PRIVATE CLUB</fullName>
+                    <default>false</default>
+                    <label>PRIVATE CLUB</label>
+                </value>
+                <value>
+                    <fullName>QUICK SERVICE RESTAURANTS</fullName>
+                    <default>false</default>
+                    <label>QUICK SERVICE RESTAURANTS</label>
+                </value>
+                <value>
+                    <fullName>RAIL TRANSPORT</fullName>
+                    <default>false</default>
+                    <label>RAIL TRANSPORT</label>
+                </value>
+                <value>
+                    <fullName>RECREATION OTHER</fullName>
+                    <default>false</default>
+                    <label>RECREATION OTHER</label>
+                </value>
+                <value>
+                    <fullName>SCHOOLS/PRIMARY SECONDARY DINING</fullName>
+                    <default>false</default>
+                    <label>SCHOOLS/PRIMARY SECONDARY DINING</label>
+                </value>
+                <value>
+                    <fullName>SKI RESORT</fullName>
+                    <default>false</default>
+                    <label>SKI RESORT</label>
+                </value>
+                <value>
+                    <fullName>SPECIALTY</fullName>
+                    <default>false</default>
+                    <label>SPECIALTY</label>
+                </value>
+                <value>
+                    <fullName>SUPERMARKET</fullName>
+                    <default>false</default>
+                    <label>SUPERMARKET</label>
+                </value>
+                <value>
+                    <fullName>THEATER</fullName>
+                    <default>false</default>
+                    <label>THEATER</label>
+                </value>
+                <value>
+                    <fullName>THEME PARK</fullName>
+                    <default>false</default>
+                    <label>THEME PARK</label>
+                </value>
+                <value>
+                    <fullName>TRAVEL PLAZA</fullName>
+                    <default>false</default>
+                    <label>TRAVEL PLAZA</label>
+                </value>
+                <value>
+                    <fullName>UPSCALE AND ABOVE</fullName>
+                    <default>false</default>
+                    <label>UPSCALE AND ABOVE</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>LODGING</controllingFieldValue>
+                <valueName>ECONOMY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LODGING</controllingFieldValue>
+                <valueName>GAMING WITH LODGING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LODGING</controllingFieldValue>
+                <valueName>MID-SCALE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LODGING</controllingFieldValue>
+                <valueName>UPSCALE AND ABOVE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ONSITE</controllingFieldValue>
+                <valueName>CONVENTION CENTER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ONSITE</controllingFieldValue>
+                <valueName>COLLEGE/UNIVERSITY/TECH DINING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ONSITE</controllingFieldValue>
+                <valueName>EMPLOYEE DINING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ONSITE</controllingFieldValue>
+                <valueName>GOVERNMENT DINING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ONSITE</controllingFieldValue>
+                <valueName>HEALTHCARE - LONG TERM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ONSITE</controllingFieldValue>
+                <valueName>HEALTHCARE - SHORT TERM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ONSITE</controllingFieldValue>
+                <valueName>MILITARY DINING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ONSITE</controllingFieldValue>
+                <valueName>ONSITE OTHER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RECREATION</controllingFieldValue>
+                <valueName>ARENA / STADIUM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RECREATION</controllingFieldValue>
+                <valueName>PRIVATE CLUB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RECREATION</controllingFieldValue>
+                <valueName>RECREATION OTHER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RECREATION</controllingFieldValue>
+                <valueName>SKI RESORT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RECREATION</controllingFieldValue>
+                <valueName>THEME PARK</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RETAIL</controllingFieldValue>
+                <valueName>DRUG</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RETAIL</controllingFieldValue>
+                <valueName>FOOD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RETAIL</controllingFieldValue>
+                <valueName>MASS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RETAIL</controllingFieldValue>
+                <valueName>SPECIALTY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRAVEL</controllingFieldValue>
+                <valueName>AIRPORT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRAVEL</controllingFieldValue>
+                <valueName>RAIL TRANSPORT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TRAVEL</controllingFieldValue>
+                <valueName>TRAVEL PLAZA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>GROCERY</controllingFieldValue>
+                <valueName>CONVENIENCE STORE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>GROCERY</controllingFieldValue>
+                <valueName>SUPERMARKET</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OTHER RETAILERS</controllingFieldValue>
+                <valueName>GENERAL MERCHANDISE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OTHER RETAILERS</controllingFieldValue>
+                <controllingFieldValue>PLACEHOLDER</controllingFieldValue>
+                <valueName>PLACEHOLDER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RESTAURANT</controllingFieldValue>
+                <valueName>FULL SERVICE - CASUAL DINING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RESTAURANT</controllingFieldValue>
+                <valueName>QUICK SERVICE RESTAURANTS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>INTERNAL</controllingFieldValue>
+                <valueName>INTERNAL CONSUMPTION-OFFICES</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>

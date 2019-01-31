@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Segment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AIRLINE</fullName>
+                <default>false</default>
+                <label>AIRLINE</label>
+            </value>
+            <value>
+                <fullName>AIRPORT</fullName>
+                <default>false</default>
+                <label>AIRPORT</label>
+            </value>
+            <value>
+                <fullName>ARENA / STADIUM</fullName>
+                <default>false</default>
+                <label>ARENA / STADIUM</label>
+            </value>
+            <value>
+                <fullName>CHARTER</fullName>
+                <default>false</default>
+                <label>CHARTER</label>
+            </value>
+            <value>
+                <fullName>CLUB</fullName>
+                <default>false</default>
+                <label>CLUB</label>
+            </value>
+            <value>
+                <fullName>CONVENTION CENTER</fullName>
+                <default>false</default>
+                <label>CONVENTION CENTER</label>
+            </value>
+            <value>
+                <fullName>COFFEE HOUSE</fullName>
+                <default>false</default>
+                <label>COFFEE HOUSE</label>
+            </value>
+            <value>
+                <fullName>CRUISE LINE</fullName>
+                <default>false</default>
+                <label>CRUISE LINE</label>
+            </value>
+            <value>
+                <fullName>CONVENIENCE STORE</fullName>
+                <default>false</default>
+                <label>CONVENIENCE STORE</label>
+            </value>
+            <value>
+                <fullName>CATERING</fullName>
+                <default>false</default>
+                <label>CATERING</label>
+            </value>
+            <value>
+                <fullName>COLLEGE/UNIVERSITY/TECH DINING</fullName>
+                <default>false</default>
+                <label>COLLEGE/UNIVERSITY/TECH DINING</label>
+            </value>
+            <value>
+                <fullName>DRUG</fullName>
+                <default>false</default>
+                <label>DRUG</label>
+            </value>
+            <value>
+                <fullName>DISTRIBUTOR</fullName>
+                <default>false</default>
+                <label>DISTRIBUTOR</label>
+            </value>
+            <value>
+                <fullName>E-COMMERCE</fullName>
+                <default>false</default>
+                <label>E-COMMERCE</label>
+            </value>
+            <value>
+                <fullName>ECONOMY</fullName>
+                <default>false</default>
+                <label>ECONOMY</label>
+            </value>
+            <value>
+                <fullName>ECOMMERCE</fullName>
+                <default>false</default>
+                <label>ECOMMERCE</label>
+            </value>
+            <value>
+                <fullName>EMPLOYEE DINING</fullName>
+                <default>false</default>
+                <label>EMPLOYEE DINING</label>
+            </value>
+            <value>
+                <fullName>EQUIPMENT SERVICE</fullName>
+                <default>false</default>
+                <label>EQUIPMENT SERVICE</label>
+            </value>
+            <value>
+                <fullName>FRESHBREW</fullName>
+                <default>false</default>
+                <label>FRESHBREW</label>
+            </value>
+            <value>
+                <fullName>FULL SERVICE - FINE DINING</fullName>
+                <default>false</default>
+                <label>FULL SERVICE - FINE DINING</label>
+            </value>
+            <value>
+                <fullName>FOOD</fullName>
+                <default>false</default>
+                <label>FOOD</label>
+            </value>
+            <value>
+                <fullName>FULL SERVICE - CASUAL DINING</fullName>
+                <default>false</default>
+                <label>FULL SERVICE - CASUAL DINING</label>
+            </value>
+            <value>
+                <fullName>FULL SERVICE - FAMILY DINING</fullName>
+                <default>false</default>
+                <label>FULL SERVICE - FAMILY DINING</label>
+            </value>
+            <value>
+                <fullName>GAMING WITH LODGING</fullName>
+                <default>false</default>
+                <label>GAMING WITH LODGING</label>
+            </value>
+            <value>
+                <fullName>GENERAL MERCHANDISE</fullName>
+                <default>false</default>
+                <label>GENERAL MERCHANDISE</label>
+            </value>
+            <value>
+                <fullName>GIFT PACK</fullName>
+                <default>false</default>
+                <label>GIFT PACK</label>
+            </value>
+            <value>
+                <fullName>GOLF</fullName>
+                <default>false</default>
+                <label>GOLF</label>
+            </value>
+            <value>
+                <fullName>GOVERNMENT DINING</fullName>
+                <default>false</default>
+                <label>GOVERNMENT DINING</label>
+            </value>
+            <value>
+                <fullName>HEALTHCARE - LONG TERM</fullName>
+                <default>false</default>
+                <label>HEALTHCARE - LONG TERM</label>
+            </value>
+            <value>
+                <fullName>HEALTHCARE - SHORT TERM</fullName>
+                <default>false</default>
+                <label>HEALTHCARE - SHORT TERM</label>
+            </value>
+            <value>
+                <fullName>INTERNAL CONSUMPTION-OFFICES</fullName>
+                <default>false</default>
+                <label>INTERNAL CONSUMPTION-OFFICES</label>
+            </value>
+            <value>
+                <fullName>MASS</fullName>
+                <default>false</default>
+                <label>MASS</label>
+            </value>
+            <value>
+                <fullName>MID-SCALE</fullName>
+                <default>false</default>
+                <label>MID-SCALE</label>
+            </value>
+            <value>
+                <fullName>MILITARY COMMISSARY/EXCHANGE</fullName>
+                <default>false</default>
+                <label>MILITARY COMMISSARY/EXCHANGE</label>
+            </value>
+            <value>
+                <fullName>MILITARY DINING</fullName>
+                <default>false</default>
+                <label>MILITARY DINING</label>
+            </value>
+            <value>
+                <fullName>ONSITE OTHER</fullName>
+                <default>false</default>
+                <label>ONSITE OTHER</label>
+            </value>
+            <value>
+                <fullName>PLACEHOLDER</fullName>
+                <default>false</default>
+                <label>PLACEHOLDER</label>
+            </value>
+            <value>
+                <fullName>PRIVATE CLUB</fullName>
+                <default>false</default>
+                <label>PRIVATE CLUB</label>
+            </value>
+            <value>
+                <fullName>QUICK SERVICE RESTAURANTS</fullName>
+                <default>false</default>
+                <label>QUICK SERVICE RESTAURANTS</label>
+            </value>
+            <value>
+                <fullName>RAIL TRANSPORT</fullName>
+                <default>false</default>
+                <label>RAIL TRANSPORT</label>
+            </value>
+            <value>
+                <fullName>RECREATION OTHER</fullName>
+                <default>false</default>
+                <label>RECREATION OTHER</label>
+            </value>
+            <value>
+                <fullName>SCHOOLS/PRIMARY SECONDARY DINING</fullName>
+                <default>false</default>
+                <label>SCHOOLS/PRIMARY SECONDARY DINING</label>
+            </value>
+            <value>
+                <fullName>SKI RESORT</fullName>
+                <default>false</default>
+                <label>SKI RESORT</label>
+            </value>
+            <value>
+                <fullName>SPECIALTY</fullName>
+                <default>false</default>
+                <label>SPECIALTY</label>
+            </value>
+            <value>
+                <fullName>SUPERMARKET</fullName>
+                <default>false</default>
+                <label>SUPERMARKET</label>
+            </value>
+            <value>
+                <fullName>THEATER</fullName>
+                <default>false</default>
+                <label>THEATER</label>
+            </value>
+            <value>
+                <fullName>THEME PARK</fullName>
+                <default>false</default>
+                <label>THEME PARK</label>
+            </value>
+            <value>
+                <fullName>TRAVEL PLAZA</fullName>
+                <default>false</default>
+                <label>TRAVEL PLAZA</label>
+            </value>
+            <value>
+                <fullName>UPSCALE AND ABOVE</fullName>
+                <default>false</default>
+                <label>UPSCALE AND ABOVE</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>LODGING</controllingFieldValue>
+            <valueName>ECONOMY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LODGING</controllingFieldValue>
+            <valueName>GAMING WITH LODGING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LODGING</controllingFieldValue>
+            <valueName>MID-SCALE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LODGING</controllingFieldValue>
+            <valueName>UPSCALE AND ABOVE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ONSITE</controllingFieldValue>
+            <valueName>CONVENTION CENTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ONSITE</controllingFieldValue>
+            <valueName>COLLEGE/UNIVERSITY/TECH DINING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ONSITE</controllingFieldValue>
+            <valueName>EMPLOYEE DINING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ONSITE</controllingFieldValue>
+            <valueName>GOVERNMENT DINING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ONSITE</controllingFieldValue>
+            <valueName>HEALTHCARE - LONG TERM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ONSITE</controllingFieldValue>
+            <valueName>HEALTHCARE - SHORT TERM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ONSITE</controllingFieldValue>
+            <valueName>MILITARY DINING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ONSITE</controllingFieldValue>
+            <valueName>ONSITE OTHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RECREATION</controllingFieldValue>
+            <valueName>ARENA / STADIUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RECREATION</controllingFieldValue>
+            <valueName>PRIVATE CLUB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RECREATION</controllingFieldValue>
+            <valueName>RECREATION OTHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RECREATION</controllingFieldValue>
+            <valueName>SKI RESORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RECREATION</controllingFieldValue>
+            <valueName>THEME PARK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RETAIL</controllingFieldValue>
+            <valueName>DRUG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RETAIL</controllingFieldValue>
+            <valueName>FOOD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RETAIL</controllingFieldValue>
+            <valueName>MASS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RETAIL</controllingFieldValue>
+            <valueName>SPECIALTY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRAVEL</controllingFieldValue>
+            <valueName>AIRPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRAVEL</controllingFieldValue>
+            <valueName>RAIL TRANSPORT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRAVEL</controllingFieldValue>
+            <valueName>TRAVEL PLAZA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GROCERY</controllingFieldValue>
+            <valueName>CONVENIENCE STORE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GROCERY</controllingFieldValue>
+            <valueName>SUPERMARKET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OTHER RETAILERS</controllingFieldValue>
+            <valueName>GENERAL MERCHANDISE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OTHER RETAILERS</controllingFieldValue>
+            <controllingFieldValue>PLACEHOLDER</controllingFieldValue>
+            <valueName>PLACEHOLDER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RESTAURANT</controllingFieldValue>
+            <valueName>FULL SERVICE - CASUAL DINING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RESTAURANT</controllingFieldValue>
+            <valueName>QUICK SERVICE RESTAURANTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INTERNAL</controllingFieldValue>
+            <valueName>INTERNAL CONSUMPTION-OFFICES</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

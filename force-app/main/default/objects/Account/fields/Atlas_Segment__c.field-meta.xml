@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Atlas_Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Atlas Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GROCERY</fullName>
+                <default>false</default>
+                <label>GROCERY</label>
+            </value>
+            <value>
+                <fullName>ONST&amp;RTL</fullName>
+                <default>false</default>
+                <label>ONST&amp;RTL</label>
+            </value>
+            <value>
+                <fullName>TRVL&amp;LSR</fullName>
+                <default>false</default>
+                <label>TRVL&amp;LSR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

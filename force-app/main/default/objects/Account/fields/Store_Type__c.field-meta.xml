@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Store Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cafe</fullName>
+                <default>false</default>
+                <label>Cafe</label>
+            </value>
+            <value>
+                <fullName>Cart</fullName>
+                <default>false</default>
+                <label>Cart</label>
+            </value>
+            <value>
+                <fullName>Coffee Stand</fullName>
+                <default>false</default>
+                <label>Coffee Stand</label>
+            </value>
+            <value>
+                <fullName>Drive Thru</fullName>
+                <default>false</default>
+                <label>Drive Thru</label>
+            </value>
+            <value>
+                <fullName>Express</fullName>
+                <default>false</default>
+                <label>Express</label>
+            </value>
+            <value>
+                <fullName>Kiosk</fullName>
+                <default>false</default>
+                <label>Kiosk</label>
+            </value>
+            <value>
+                <fullName>Mobile Truck</fullName>
+                <default>false</default>
+                <label>Mobile Truck</label>
+            </value>
+            <value>
+                <fullName>Reserve Bar</fullName>
+                <default>false</default>
+                <label>Reserve Bar</label>
+            </value>
+            <value>
+                <fullName>Reserve Store</fullName>
+                <default>false</default>
+                <label>Reserve Store</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

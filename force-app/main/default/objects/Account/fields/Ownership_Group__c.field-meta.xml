@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ownership_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Ownership Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MARRIOTT INTERNATIONAL</fullName>
+                <default>false</default>
+                <label>MARRIOTT INTERNATIONAL</label>
+            </value>
+            <value>
+                <fullName>HILTON HOTELS CORPORATION</fullName>
+                <default>false</default>
+                <label>HILTON HOTELS CORPORATION</label>
+            </value>
+            <value>
+                <fullName>STATION CASINOS</fullName>
+                <default>false</default>
+                <label>STATION CASINOS</label>
+            </value>
+            <value>
+                <fullName>CJ WASHINGTON STREET LLC</fullName>
+                <default>false</default>
+                <label>CJ WASHINGTON STREET LLC</label>
+            </value>
+            <value>
+                <fullName>CAESARS ENTERTAINMENT</fullName>
+                <default>false</default>
+                <label>CAESARS ENTERTAINMENT</label>
+            </value>
+            <value>
+                <fullName>MGM MIRAGE OPERATIONS INC</fullName>
+                <default>false</default>
+                <label>MGM MIRAGE OPERATIONS INC</label>
+            </value>
+            <value>
+                <fullName>ELKO ACQUISITIONS LLC</fullName>
+                <default>false</default>
+                <label>ELKO ACQUISITIONS LLC</label>
+            </value>
+            <value>
+                <fullName>DAVIDSON HOTEL COMPANY</fullName>
+                <default>false</default>
+                <label>DAVIDSON HOTEL COMPANY</label>
+            </value>
+            <value>
+                <fullName>GENERATION 2000</fullName>
+                <default>false</default>
+                <label>GENERATION 2000</label>
+            </value>
+            <value>
+                <fullName>Values to be determined</fullName>
+                <default>false</default>
+                <label>Values to be determined</label>
+            </value>
+            <value>
+                <fullName>75 EAST STATE LLC</fullName>
+                <default>false</default>
+                <label>75 EAST STATE LLC</label>
+            </value>
+            <value>
+                <fullName>HAZENS INVESTMENT, LLC</fullName>
+                <default>false</default>
+                <label>HAZENS INVESTMENT, LLC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
